@@ -22,6 +22,9 @@ jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 jwtOptions.secretOrKey = 'nZr4u7x!A%D*G-KaPdRgUkXp2s5v8y/B'; // 256 bit key
 jwtOptions.algorithm = 'RS256';
 
+
+
+
 sequelize = new Sequelize({
   database: 'webapp',
   username: 'root',
@@ -99,20 +102,6 @@ const getUser = async obj => {
 router.get('/', function(req, res) {    
   res.sendFile('index.html');
 });
-
-
-// Register route
-//router.post('/register', function(req, res, next) {
-  //const { name, password } = req.body;
-
-  //const saltRounds = 10;
-  //bycrypt.hash(password,saltRounds,function(err,hashedPassword){
-    //createUser({ name, password }).then(user =>
-      //res.json({ name, msg: 'Account created successfully' })
-    //);
-  //});
-
-//});
 
 // Login route
 

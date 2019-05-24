@@ -6,7 +6,7 @@ import Survey from './survey';
 import Homepage from './Homepage';
 import Auth from './Auth';
 
-// mhdi code teat
+// Mahdi code
 function App() {
   return (
     <div className="App">
@@ -17,13 +17,15 @@ function App() {
           Online survey <code></code>
         </p>
         <p>
+          Welcome to the Online Survey Web Application <code></code>
+        </p>
+
+        <p>
       <Homepage/>
       
         </p>
 
-        <p>
-          Welcome to the Online Survey Web Application <code></code>
-        </p>
+        
         
 
 

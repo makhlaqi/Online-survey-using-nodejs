@@ -38,7 +38,7 @@ class Login  extends Component {
 
       render() {
         return (
-          //<div id="login">
+         
             <form onSubmit={this.handleLogin}>
             
             <label>
@@ -55,8 +55,7 @@ class Login  extends Component {
             
             
             </form>
-            //<div id="message">{this.state.message}</div>
-            //</div>
+            
         );
       }
 }

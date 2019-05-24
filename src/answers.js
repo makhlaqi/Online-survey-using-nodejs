@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import Auth from './Auth';
-//import survey from './survey.css';
 
-//animation: App-logo-spin infinite 20s linear;
+
+
 class Answers extends Component {
   
     constructor(props) {
@@ -25,14 +25,7 @@ class Answers extends Component {
           })
         });
 
-/*
-        axios.get('/answers').then((response) => {
-          console.log(response.data);
-          this.setState({
-              answers: response.data
-          });
-        });
-        */
+
 
     }
 
